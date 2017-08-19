@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace VROnRamp.Models.ManageViewModels
 {
-    public class TwoFactorAuthenticationViewModel
+    public class AddPhoneNumberViewModel
     {
-        public bool HasAuthenticator { get; set; }
-
-        public int RecoveryCodesLeft { get; set; }
-
-        public bool Is2faEnabled { get; set; }
+        [Required]
+        [Phone]
+        [Display(Name = "Phone number")]
+        public string PhoneNumber { get; set; }
     }
 }
