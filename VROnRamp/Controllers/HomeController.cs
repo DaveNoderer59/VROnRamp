@@ -12,6 +12,14 @@ namespace VROnRamp.Controllers
         {
             return View();
         }
+        public IActionResult Setup()
+        {
+            return View();
+        }
+        public IActionResult Links()
+        {
+            return View();
+        }
 
         public IActionResult About()
         {
