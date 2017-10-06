@@ -23,14 +23,14 @@ namespace VROnRamp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Helping developers create compelling Mixed Reality Applications.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact us for information, seminars and customized training and development.";
 
             return View();
         }
